@@ -24,7 +24,7 @@ end
 
 def initial_round
   x = Times.2 do deal_card
-  return display_card_total(x+y)
+  return display_card_total(x)
 end
 
 def hit?
