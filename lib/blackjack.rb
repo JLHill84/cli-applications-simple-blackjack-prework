@@ -29,7 +29,7 @@ def initial_round
 end
 
 def hit? (int)
-  input = ["h", "s"]
+  choices = ["h", "s"]
 
   prompt_user
   input = get_user_input
