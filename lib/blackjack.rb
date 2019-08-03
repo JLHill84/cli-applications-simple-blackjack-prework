@@ -34,7 +34,7 @@ def hit? (int)
   prompt_user
   input = get_user_input
 
-  until valid_inputs.include?(input)
+  until choices.include?(input)
     invalid_command
     prompt_user
     input = get_user_input
